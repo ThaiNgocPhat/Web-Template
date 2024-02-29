@@ -1,0 +1,64 @@
+.sun{
+    background: linear-gradient(174deg,rgba(255,0,0,1)44%,rgba(255,123,0,1)63%);
+    height:50vmin;
+    width: 50vmin;
+    margin-left: 25vmin;
+    border-radius: 50%;
+    box-shadow: 0 -0.5vmin 4vmin red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.water{
+    position: relative;
+    background: black;
+    width: 80vmin;
+    height: 25vmin;
+    top: 20vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reflection{
+    position: relative;
+    background: rgba(255,123,0,1);
+    color: rgba(255,123,0,1);
+    width: 50vmin;
+    height: 3vmin;
+    border-radius: 50%;
+    top: -12vmin;
+    box-shadow: 
+    0.5vmin 0 2vmin,
+    -8.5vmin 0 2vmin;
+    animation: fade 3s ease-in-out
+    infinite;
+}
+.reflection::before{
+    content: '';
+    position: absolute;
+    background: rgba(255,123,0,1);
+    color: rgba(255,123,0,1);
+    width: 40vmin;
+    height: 5vmin;
+    left: 5vmin;
+    border-radius: 50% 90% 50% 80%;
+    top: 7vmin;
+    box-shadow: 
+    0.5vmin 0 2 vmin,
+    -0.5vmin 0 2vmin;
+    animation: tide 3s ease-out infinite;
+}
+.plop{
+    background: rgba(255,123,0,1);
+    color: rgba(255,123,0,1);
+    position: relative;
+    height: 10vmin;
+    width: 30vmin;
+    border-radius: 40% 80% 50% 70%;
+    left: -38vmin;
+    top: 25vmin;
+      box-shadow: 
+    0.5vmin 0 2 vmin,
+    -0.5vmin 0 2vmin;
+    animation: popout 3s ease-out infinite;
+}

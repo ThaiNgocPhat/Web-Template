@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:white;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color: black;
+    padding: 10px;
+}
+.img-main{
+    width: 1500px;
+    height: 500px;
+}
+nav{
+    text-align: center;
+    margin-bottom: 50px;
+}
+nav a{
+    color: chartreuse;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 20px;
+    margin-right: 50px;
+}
+nav a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+section{
+    padding: 50px 30px;
+}
+section h1{
+    text-align: center;
+    font-size: 40px;
+}
+.product-main{
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.product{
+    margin-top: 20px;
+    margin-left: 20px;/*khoảng cách với lề của web và xung quanh*/
+    border: 0.2px solid #4a0975;/*độ đậm nhạt của khung*/
+    padding: 2px;/*khoảng cách giữa các phần tử*/
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition-duration: 2D transform 0.3s ease ;
+}
+.product-img{
+    margin-top: 30px;
+    width: 220px;/*chiều dài*/
+    height: 200px;/*cao*/
+    border-radius: 20px;
+}
+.product-button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color:white ;
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.img-left{
+    float: left;
+    margin-right: 30px;
+}
+
+
+.img-right{
+    display: grid;
+    
+    grid-column: repeat(2,10px);
+    gap: 50px;/*khoảng cách giữa hai ảnh khi bị dính với nhau*/
+}
+.product-main{
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="music-player">
+        <div id="song-title">Song Title</div>
+        <audio id="audio-player" controls>
+            <source src="./Nhac/ChayVeNoiPhiaAnh-KhacViet-7129688.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+        <div id="controls">
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="stop()">Stop</button>
+            <button onclick="volumeUp()">Volume Up</button>
+            <button onclick="volumeDown()">Volume Down</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

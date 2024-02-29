@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1400px;
+}
+
+nav {
+    background-color: #ffc107;
+    padding: 10px 0;
+}
+
+.container {
+   /* max-width: 1200px;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;/*cho cac phan tu nam ngang*/
+    align-items: center;
+}
+
+.nav-item {
+    margin: 20px 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: 2px solid #007bff;
+    background-color: transparent;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.row-cs {
+    margin: 2px;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+}
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 1400px;
+    height: 500px;
+}
+
+.card {
+    margin-top: 2px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.col {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.m-5 {
+    margin: 50px 100px;
+}
+
+#footer {
+    text-align: center;
+    justify-content: center;
+    background-color: #ffc107;
+    padding: 20px 0;
+}

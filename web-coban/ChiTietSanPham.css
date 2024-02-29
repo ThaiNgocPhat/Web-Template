@@ -1,0 +1,20 @@
+#item-main{
+    margin: 50px 100px;
+    width: 1000px;
+    height: 300px;
+}
+.item-img{
+    float: left;
+}
+.item{
+    float: right;
+    width: 400px;
+}
+.item-button{
+    background-color: black;
+    padding: 10px 20px;
+    color: aliceblue;
+}
+footer{
+    margin-top: 500px;
+}

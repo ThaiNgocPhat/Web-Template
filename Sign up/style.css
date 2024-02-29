@@ -1,0 +1,62 @@
+body{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+.container {
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    margin: 30px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+/*margin là khoảng cach của phân tử so với lề của màn hình và các phần tử xung quanh
+  padding là khoảng cách của phần tử so với hộp chứa nó
+  boder là độ dậm nhạt của khung viền quanh nó,độ px càng nhỏ thì khung càng nhạt*/
